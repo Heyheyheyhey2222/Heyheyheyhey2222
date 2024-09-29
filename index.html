@@ -1,40 +1,106 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>CV</title>
-        </head>
-        <body>
-            <style>
-                img{
-                    width: 140px;
-                    height: 140px;
-                }
-            </style>
-            <h1>QUANG LONG</h1>
-            <img src="./avatar.png" alt="avatar">
-            <h2>Career Objective</h2>
-            <p>
-                Aspiring software engineer with a passion for problem-solving and a strong foundation in computer science. Seeking an entry-level position to contribute my skills and learn from experienced professionals in the field.
-            </p>
-            <ul>
-                <li>Bachelor of Cyber Security</li>
-                <li>CompTIA Security+</li>
-                <li>CompTIA Advanced Security Practitioner (CASP+)</li>
-            </ul>
-            <hr>
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming languages: Python, Java, C++</li>
-                <li>Web development: HTML, CSS, JavaScript</li>
-                <li>Version control: Git</li>
-            </ul>
-            <hr>
-            <h2>Interests and Achievements</h2>
-            <ul>
-                <li>Participated in hackathons and coding competitions</li>
-                <li>Contributed to open-source projects on GitHub</li>
-                <li>Awarded the “Best Intern” title during my internship at XYZ</li>
-            </ul>
-            <i>CV:  </i><a href="https://heyheyheyhey2222.github.io/QuangLong/">https://heyheyheyhey2222.github.io/QuangLong/</a>
-        </body>
-    </html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./assets/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="./assets/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <link rel="stylesheet" href="./assets/aos-master/aos-master/dist/aos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid" data-aos="fade-down">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" data-aos="fade-down">
+                    <ul class="navbar-nav col-10 d-flex justify-content-center">
+                        <li class="col-2">
+                            <a class="nav-link" href="">Giới thiệu</a>
+                        </li>
+                        <li class="col-2">
+                            <a class="nav-link" href="">Sản phẩm</a>
+                        </li>
+                        <li class="col-2">
+                            <a class="nav-link" href="">Website</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>       
+    <main class="main">
+        <section>
+            <div class="home-container container grid" data-aos="fade-right"> 
+                <div class="home-data">
+                    <h1 class="home-title">
+                       	XIN CHÀO TÔI LÀ <br>
+                        <span>DEVELOPER</span>
+                    </h1>
+                    <div class="home-description container row">
+                        <div class="row">
+                            <div class="col-md-10 col-sm-12">
+                                <p class="small-text-title row">Giáo dục</p>
+                                <p class="small-text row">Đại học Cần Thơ</p>                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-10 col-sm-12">
+                                <p class="small-text-title row">Kỹ năng</p>
+                                <p class="small-text row">Kỹ năng chuyên môn: HTML, CSS, JavaScript, Python</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-10 col-sm-12">
+                                <p class="small-text-title row">Chứng chỉ</p>
+                                <p class="small-text row">CompTIA Security+, CASP+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/pic/images.jpg" alt="image" class="home-img col-md-auto col-sm-12 container">
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="rare" data-aos="fade-up">
+                <p class="section-2-small-title">KINH NGHIỆM</p>
+            </div>
+            <div class="row">
+                <div class="col section-2-wrapper" data-aos="fade-up">
+                    <img src="./assets/pic/Section2-img1.jpg" class="section-img">
+                </div>
+                <div class="col section-2-wrapper" data-aos="fade-up">
+                    <img src="./assets/pic/Section2-img2.jpg" class="section-img">
+                </div>
+                <div class="col section-2-wrapper" data-aos="fade-up">
+                    <img src="./assets/pic/Section2-img3.jpg" class="section-img">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-muted">
+            <b>
+                Liên hệ 
+            </b>
+          </span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <b href="" class='fa fa-facebook' style='font-size:24px'></b>
+            <b href="" class="fa fa-youtube" style='font-size:24px'></b>
+            <b href="" class="fa fa-instagram" style='font-size:24px'></b>
+        </ul>
+    </footer>
+    <script src="./assets/aos-master/aos-master/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
